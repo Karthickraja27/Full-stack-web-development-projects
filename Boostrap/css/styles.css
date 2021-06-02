@@ -1,0 +1,162 @@
+/* title section */
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+  padding-left: 200px;
+  padding-right: 100px;
+  padding-bottom: 300px;
+}
+.title-heading{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  font-size: 2.5rem;
+  width: 80%;
+}
+.navbar{
+  margin-bottom: 50px;
+}
+h3{
+  font-family: 'Montserrat-bold';
+  font-size: 1.5rem;
+}
+.navigation-bar{
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+.nav-item{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.nav-link{
+  font-size:1.2rem;
+}
+.download-button{
+  margin:3% 1% 3% 1%;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size:2.5rem !important;;
+}
+
+.dog-image{
+  transform: rotate(25deg);
+  position:absolute;
+}
+
+.icons{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icons:hover{
+  color: #ff4c68;
+}
+.features-para{
+  color:#8f8f8f;
+}
+.features-row{
+  text-align: center;
+}
+
+@media (max-width:1060px){
+  .dog-image{
+    margin-top: 20px;
+    transform: rotate(0deg);
+    position:static;
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+/* feature section */
+#features{
+  padding: 7% 15%;
+  position: relative;
+  background-color: #fff;
+}
+
+/* testimonial section */
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Montserrat-bold';
+  color: #fff;
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.carousel-indicators{
+    top:350px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+  width:80%;
+}
+
+#press{
+  margin-top: 30px;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+
+
+.press-img{
+  width:15%;
+  margin:20px 20px 30px;
+}
+
+/* pricing section */
+#pricing{
+  text-align: center;
+  margin-top: 3%;
+}
+
+.price-texts{
+  color:black;
+  font-family: 'Montserrat';
+  font-weight:'bold';
+}
+
+.card{
+  margin:10%;
+}
+
+
+/* cta section */
+#cta{
+  padding: 7% 35%;
+  background-color: #ff4c68;
+  font-family: 'Montserrat-black';
+  color:#fff;
+  text-align: center;
+}
+.cta-heading{
+
+  margin-bottom: 20px;
+}
+.cta-button{
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*footer section */
+#footer{
+  text-align: center;
+  padding: 3% 15%;
+}
+.foot-icon{
+  margin-right: 5px;
+  margin-left: 5px;
+}
